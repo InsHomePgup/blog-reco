@@ -14,36 +14,11 @@ bannerBrand:
     - { text: Life, link: '/docs/guide/introduce' }
     - { text: Code, link: '/docs/style-default-api/introduce', type: 'plain' }
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
+    - { icon: 'LogoGithub', link: 'https://github.com/InsHomePgup' }
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
+    - { icon: 'LogoGithub', link: 'https://github.com/InsHomePgup' }
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
 ---
-
-## 快速开始
-
-**npx**
-
-```bash
-# 初始化，并选择 2.x
-npx @vuepress-reco/theme-cli init
-```
-
-**npm**
-
-```bash
-# 初始化，并选择 2.x
-npm install @vuepress-reco/theme-cli@1.0.7 -g
-theme-cli init
-```
-
-**yarn**
-
-```bash
-# 初始化，并选择 2.x
-yarn global add @vuepress-reco/theme-cli@1.0.7
-theme-cli init
-```

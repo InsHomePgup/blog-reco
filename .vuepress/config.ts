@@ -12,21 +12,21 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "abra",
-    authorAvatar: "/head.png",
+    authorAvatar: "https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/⋆⁺₊⋆ ☾ ⋆⁺₊⋆ ☁︎.jpeg",
     // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     // docsBranch: "main",
     // docsDir: "example",
     // lastUpdatedText: "",
     // series 为原 sidebar
     series: {
-      "/blogs/git/branch": [
+      "Git": [
         {
-          text: "module one",
-          children: ["home", "theme"],
+          text: "branch",
+          children: ["branch"],
         },
         {
-          text: "module two",
-          children: ["api", "plugin"],
+          text: "flow",
+          children: ["base"],
         },
       ],
     },
