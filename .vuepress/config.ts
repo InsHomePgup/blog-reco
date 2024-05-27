@@ -20,22 +20,22 @@ export default defineUserConfig({
     // docsDir: "example",
     // lastUpdatedText: "",
     // series 为原 sidebar
-    series: {
-      "Git": [
-        {
-          text: "branch",
-          children: ["branch"],
-        },
-        {
-          text: "flow",
-          children: ["base"],
-        },
-      ],
-    },
+    // series: {
+    //   "Git": [
+    //     {
+    //       text: "branch",
+    //       children: ["branch"],
+    //     },
+    //     {
+    //       text: "flow",
+    //       children: ["base"],
+    //     },
+    //   ],
+    // },
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/git/1.html" },
-      { text: "Tags", link: "/tags/git/1.html" },
+      { text: "首页", link: "/" },
+      { text: "分类", link: "/categories/git/1.html" },
+      // { text: "Tags", link: "/tags/git/1.html" },
       // {
       //   text: "Docs",
       //   children: [
