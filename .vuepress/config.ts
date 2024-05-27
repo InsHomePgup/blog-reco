@@ -4,11 +4,13 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
+
   title: "Abra's Home",
   description: "Happy life go go go !!!",
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   theme: recoTheme({
+    colorMode: 'dark',
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "abra",
@@ -32,15 +34,15 @@ export default defineUserConfig({
     },
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/reco/1/" },
-      { text: "Tags", link: "/tags/tag1/1/" },
-      {
-        text: "Docs",
-        children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
-        ],
-      },
+      { text: "Categories", link: "/categories/git/1.html" },
+      { text: "Tags", link: "/tags/git/1.html" },
+      // {
+      //   text: "Docs",
+      //   children: [
+      //     { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
+      //     { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+      //   ],
+      // },
     ],
     // commentConfig: {
     //   type: 'valine',
