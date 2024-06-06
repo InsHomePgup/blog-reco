@@ -1,13 +1,17 @@
 import { defineUserConfig } from "vuepress";
-import recoTheme from "vuepress-theme-reco";
+import {recoTheme} from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
-
+  locales: undefined,
   title: "Abra's Home",
   description: "Happy life go go go !!!",
   bundler: viteBundler(),
+  markdown: {
+    // @ts-ignore
+    lineNumbers: true
+  },
   // bundler: webpackBundler(),
   theme: recoTheme({
     colorMode: 'dark',
@@ -20,18 +24,14 @@ export default defineUserConfig({
     // docsDir: "example",
     // lastUpdatedText: "",
     // series 为原 sidebar
-    // series: {
-    //   "Git": [
-    //     {
-    //       text: "branch",
-    //       children: ["branch"],
-    //     },
-    //     {
-    //       text: "flow",
-    //       children: ["base"],
-    //     },
-    //   ],
-    // },
+    series: {
+      "/react/2024": [
+        {
+          text: "React",
+          children: ["react01","react02"],
+        }
+      ],
+    },
     navbar: [
       { text: "首页", link: "/" },
       { text: "分类", link: "/categories/git/1.html" },
@@ -57,6 +57,6 @@ export default defineUserConfig({
     //     // hideComments: true // 隐藏评论
     //   },
     // },
-  }),
+  })
   // debug: true,
 });
