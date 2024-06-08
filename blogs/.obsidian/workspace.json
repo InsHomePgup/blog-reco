@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1ca594fcef841b49",
+        "id": "f3f83c83c715bf7b",
         "type": "tabs",
         "children": [
           {
-            "id": "8242d913cc7bd8f0",
+            "id": "be6ad366bb44e060",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2024/markdown.md",
+                "file": "git/gui/sublime merge.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/2024/markdown.md",
+                "file": "git/gui/sublime merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/2024/markdown.md",
+                "file": "git/gui/sublime merge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2024/markdown.md"
+                "file": "git/gui/sublime merge.md"
               }
             }
           }
@@ -146,6 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8242d913cc7bd8f0",
-  "lastOpenFiles": []
+  "active": "be6ad366bb44e060",
+  "lastOpenFiles": [
+    "blog/2024/Obsidian.md",
+    "git/gui/sublime merge.md",
+    "git/gui",
+    "blog/2024/markdown.md",
+    "webpack/2024/start.md"
+  ]
 }

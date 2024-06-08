@@ -2,7 +2,8 @@
 title: 博客使用markdown的一些语法展示
 date: 2024/06/06
 tags:
-  - markdown blog
+  - markdown
+  - blog
 categories:
   - blog md
 ---
@@ -14,6 +15,10 @@ categories:
 # 1号标题
 
 ## 2号标题
+
+## 图片
+
+
 
 ::: tip
 This is a tip
