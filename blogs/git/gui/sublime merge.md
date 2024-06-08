@@ -45,8 +45,10 @@ categories:
 
 菜单里 Tools-show console
 
-GUI主要也就是在diff code，查看commit，简化一些cli的操作比较有用。
-但是cli还是很有必要学习的，毕竟可视化也只是在Windows，Mac。
-Linux下用cli操作git还是很爽的。
+## 务必认真学习的CLI以及Git运行逻辑
+
+GUI主要也就是在diff code，查看commit，简化一些cli的操作比较有用。是在对git以及git命令有一定深度了解以后才能使用的选项。毕竟如果都不知道这些操作背后是在运行什么，也会出现一些不可预料的代码事故。
+另外一个角度来说，git的cli是全端通用的，而GUI客户端也只是在一些有gui的操作系统上使用。
+真正学好Git来加强自己的代码调试是非常有用的。
 
 

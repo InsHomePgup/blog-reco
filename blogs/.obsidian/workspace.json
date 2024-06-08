@@ -148,10 +148,14 @@
   },
   "active": "be6ad366bb44e060",
   "lastOpenFiles": [
+    "git/flow/flow.md",
+    "git/flow/base.md",
+    "git/branch/branch.md",
+    "blog/2024/picgo.md",
     "blog/2024/Obsidian.md",
+    "blog/2024/markdown.md",
     "git/gui/sublime merge.md",
     "git/gui",
-    "blog/2024/markdown.md",
     "webpack/2024/start.md"
   ]
 }
