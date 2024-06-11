@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fa2d5f98df73d179",
+        "id": "acaff102f18dd88e",
         "type": "tabs",
         "children": [
           {
-            "id": "fa62dd4e48854e58",
+            "id": "4896b9e0c0b8573f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/2024/react02.md",
+                "file": "life/2024/06-11.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/2024/react02.md",
+                "file": "life/2024/06-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/2024/react02.md",
+                "file": "life/2024/06-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/2024/react02.md"
+                "file": "life/2024/06-11.md"
               }
             }
           }
@@ -146,15 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa62dd4e48854e58",
+  "active": "4896b9e0c0b8573f",
   "lastOpenFiles": [
-    "react/2024/react01.md",
+    "life/2024/06-11.md",
+    "read/2024/中国居民膳食指南.md",
     "react/2024/react02.md",
-    "life/2024/06-08.md",
+    "react/2024/react01.md",
     "git/gui/sublime merge.md",
     "git/flow/flow.md",
     "git/flow/base.md",
     "git/branch/branch.md",
+    "nginx/2024/nginx安装和使用.md",
+    "read/2024/网络是怎样连接的.md",
+    "read/阅读.md",
+    "read/2024/你是你吃出来的.md",
+    "read/2024/为什么精英都是时间控.md",
+    "mac/2024/shortcut.md",
+    "nginx/2024",
+    "nginx",
+    "life/2024/06-10.md",
+    "life/2024/06-08.md",
+    "life/2024/05-27.md",
     "blog/2024/picgo.md",
     "blog/2024/Obsidian.md",
     "blog/2024/markdown.md",

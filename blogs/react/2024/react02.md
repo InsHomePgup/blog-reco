@@ -1,8 +1,10 @@
 ---
-title: React02 jsx | tsx的使用
+title: React02 组件的使用
 date: 2024/06/06
 tags:
-  - react jsx tsx
+  - react
+  - jsx
+  - tsx
 categories:
   - react
 ---
