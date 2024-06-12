@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "acaff102f18dd88e",
+        "id": "dcbbde1bc94e4b31",
         "type": "tabs",
         "children": [
           {
-            "id": "4896b9e0c0b8573f",
+            "id": "39528dcff16173aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "life/2024/06-11.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/2024/06-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "life/2024/06-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "life/2024/06-11.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4896b9e0c0b8573f",
+  "active": "39528dcff16173aa",
   "lastOpenFiles": [
     "life/2024/06-11.md",
     "read/2024/中国居民膳食指南.md",
