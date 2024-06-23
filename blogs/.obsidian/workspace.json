@@ -148,6 +148,12 @@
   },
   "active": "ef95b839e2b696cd",
   "lastOpenFiles": [
+    "FrontEnd/Vue/01.md",
+    "FrontEnd/Typescript/01.md",
+    "FrontEnd/Nodejs/01.md",
+    "FrontEnd/JavaScript/js01.md",
+    "FrontEnd/HTML/element.md",
+    "FrontEnd/CSS/flex.md",
     "Hello",
     "Network",
     "FrontEnd/JavaScript",
@@ -166,7 +172,6 @@
     "Life/myself/06-10.md",
     "Life/myself/06-11.md",
     "Linux&Software/mysql-mariadb/Debian安装和配置Mariadb.md",
-    "FrontEnd",
     "Life/read/2024/中国居民膳食指南.md",
     "FrontEnd/React/2024/react02.md",
     "FrontEnd/React/2024/react01.md",
@@ -178,8 +183,6 @@
     "Life/read/2024/网络是怎样连接的.md",
     "Life/read/阅读.md",
     "Life/read/2024/你是你吃出来的.md",
-    "Life/read/2024/为什么精英都是时间控.md",
-    "MacOS/2024/shortcut.md",
-    "FrontEnd/Webpack/2024/start.md"
+    "Life/read/2024/为什么精英都是时间控.md"
   ]
 }
