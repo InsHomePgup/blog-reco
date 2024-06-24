@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql-mariadb/Debian安装和配置Mariadb.md",
+                "file": "linux/Debian 安装和配置redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql-mariadb/Debian安装和配置Mariadb.md",
+                "file": "linux/Debian 安装和配置redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysql-mariadb/Debian安装和配置Mariadb.md",
+                "file": "linux/Debian 安装和配置redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql-mariadb/Debian安装和配置Mariadb.md"
+                "file": "linux/Debian 安装和配置redis.md"
               }
             }
           }
@@ -148,7 +148,9 @@
   },
   "active": "39528dcff16173aa",
   "lastOpenFiles": [
-    "mysql-mariadb/Debian安装和配置Mariadb.md",
+    "linux/Debian安装和配置Mariadb.md",
+    "linux/Debian 安装和配置redis.md",
+    "linux",
     "life/2024/06-11.md",
     "read/2024/中国居民膳食指南.md",
     "react/2024/react02.md",
