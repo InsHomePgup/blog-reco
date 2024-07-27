@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "31a41ebef7442cd3",
+        "id": "2d380789a60ac173",
         "type": "tabs",
         "children": [
           {
-            "id": "0e014908e00616ab",
+            "id": "6fa09d5b6d23efba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Life/read/人性的弱点.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/read/人性的弱点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Life/read/人性的弱点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Life/read/人性的弱点.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e014908e00616ab",
+  "active": "6fa09d5b6d23efba",
   "lastOpenFiles": [
+    "FrontEnd/Webpack/webpack01.md",
+    "Linux&Software/Debian 安装 NVM.md",
+    "FrontEnd/Webpack/cli.md",
+    "FrontEnd/Webpack/start.md",
     "Life/read/人性的弱点.md",
     "Life/read/读书笔记.md",
     "Life/read/戒糖.md",
@@ -179,10 +175,6 @@
     "Life/myself/05-27.md",
     "Life/run",
     "Life/food",
-    "Life/myself/06-08.md",
-    "Life/myself/06-10.md",
-    "Life/myself/06-11.md",
-    "Linux&Software/mysql-mariadb/Debian安装和配置Mariadb.md",
-    "FrontEnd/React/2024/react02.md"
+    "Life/myself/06-08.md"
   ]
 }
