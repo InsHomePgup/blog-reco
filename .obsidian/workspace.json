@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "2b984017f5aefe85",
+    "id": "2a91871a4fa09505",
     "type": "split",
     "children": [
       {
-        "id": "6392f3e35c5be0d2",
+        "id": "f021b576a791d772",
         "type": "tabs",
         "children": [
           {
-            "id": "efdf28a44a51417f",
+            "id": "992424086fa43113",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c1564b1e3602241c",
+    "id": "339269871a50f9a5",
     "type": "split",
     "children": [
       {
-        "id": "e3abf959811a6aea",
+        "id": "f97a7e4d72810c5a",
         "type": "tabs",
         "children": [
           {
-            "id": "ef95b839e2b696cd",
+            "id": "f3539f1f505883f6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "6028b37b0ed6e62a",
+            "id": "71a195ab40079f98",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "3f072e4008824a23",
+            "id": "20f699f058362764",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "bf932135e4e6a6a2",
+    "id": "ac4ab0fd94a87bcf",
     "type": "split",
     "children": [
       {
-        "id": "dadd42d38d583589",
+        "id": "f99cc723380e318a",
         "type": "tabs",
         "children": [
           {
-            "id": "032ee429c84b2c09",
+            "id": "a3a37db0c1fde098",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "39b5c4218052db87",
+            "id": "696febcfe3fe79a8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0904819025d9dcf8",
+            "id": "f38b2f9316dd844a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "6b506d13ab2ca944",
+            "id": "38dd5a9919f6edf9",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,45 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef95b839e2b696cd",
-  "lastOpenFiles": [
-    "FrontEnd/Rollup",
-    "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
-    "FrontEnd/Vue/Leaflet",
-    "FrontEnd/Typescript/记录一次vscode没有ts静态检查的事情.md",
-    "Pasted image 20240723154005.png",
-    "FrontEnd/Typescript/01.md",
-    "FrontEnd/Vue/01.md",
-    "Pasted image 20240719105001.png",
-    "Git/重新链接的两个远程仓库怎么合并代码.md",
-    "FrontEnd/Vue/alova/alova01.md",
-    "FrontEnd/Vue/pinia/Pinia02.md",
-    "FrontEnd/Vue/alova",
-    "FrontEnd/Vue/pinia/Pinia01.md",
-    "FrontEnd/CSS/Icon/iconify.md",
-    "@iconify/vue.md",
-    "@iconify",
-    "FrontEnd/CSS/Icon",
-    "FrontEnd/Vue/Untitled.md",
-    "FrontEnd/Vue/pinia",
-    "Life/read/人性的弱点.md",
-    "Life/read/读书笔记.md",
-    "Life/read/戒糖.md",
-    "Life/read/你是你吃出来的.md",
-    "Life/read/中国居民膳食指南.md",
-    "Life/read/为什么精英都是时间控.md",
-    "Life/read/网络是怎样连接的.md",
-    "Life/read/阅读.md",
-    "Network/认识ip.md",
-    "Life/food/做菜.md",
-    "Life/run/运动的推荐.md",
-    "FrontEnd/Nodejs/01.md",
-    "FrontEnd/JavaScript/js01.md",
-    "FrontEnd/HTML/element.md",
-    "Hello",
-    "Network",
-    "FrontEnd/JavaScript",
-    "FrontEnd/CSS",
-    "FrontEnd/HTML"
-  ]
+  "active": "992424086fa43113",
+  "lastOpenFiles": []
 }
