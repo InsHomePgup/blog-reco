@@ -17,7 +17,7 @@ apt update && apt upgrade -y
 
 # 初始化内容
 
-sudo apt-get install apt-transport-https curl
+sudo apt install apt-transport-https curl
 sudo mkdir -p /etc/apt/keyrings
 sudo curl -o /etc/apt/keyrings/mariadb-keyring.pgp 'https://mariadb.org/mariadb_release_signing_key.pgp'
 
@@ -40,8 +40,8 @@ Signed-By: /etc/apt/keyrings/mariadb-keyring.pgp
 
 # 开始安装:
 
-sudo apt-get update
-sudo apt-get install mariadb-server
+sudo apt update
+sudo apt install mariadb-server
 
 
 # 安装完成以后开始初始化

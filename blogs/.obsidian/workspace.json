@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
+                "file": "Linux&Software/Debian安装和配置Mariadb.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
+                "file": "Linux&Software/Debian安装和配置Mariadb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
+                "file": "Linux&Software/Debian安装和配置Mariadb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md"
+                "file": "Linux&Software/Debian安装和配置Mariadb.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef95b839e2b696cd",
+  "active": "efdf28a44a51417f",
   "lastOpenFiles": [
-    "FrontEnd/Rollup",
     "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
+    "FrontEnd/Rollup",
     "FrontEnd/Vue/Leaflet",
     "FrontEnd/Typescript/记录一次vscode没有ts静态检查的事情.md",
     "Pasted image 20240723154005.png",
@@ -184,7 +184,6 @@
     "Hello",
     "Network",
     "FrontEnd/JavaScript",
-    "FrontEnd/CSS",
-    "FrontEnd/HTML"
+    "FrontEnd/CSS"
   ]
 }
