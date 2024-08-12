@@ -18,3 +18,4 @@ command -v nvm
 ## 如果成功安装就会输出 nvm
 
 ```
+
