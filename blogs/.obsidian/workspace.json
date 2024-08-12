@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BackEnd/Mariadb/开启隧道连接.md",
+                "file": "Linux&Software/命令行里的主机名称太长了.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BackEnd/Mariadb/开启隧道连接.md",
+                "file": "Linux&Software/命令行里的主机名称太长了.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BackEnd/Mariadb/开启隧道连接.md",
+                "file": "Linux&Software/命令行里的主机名称太长了.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BackEnd/Mariadb/开启隧道连接.md"
+                "file": "Linux&Software/命令行里的主机名称太长了.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "0af486be2591da8d",
   "lastOpenFiles": [
+    "Linux&Software/Debian nvm 使用国内镜像.md",
+    "Linux&Software/命令行里的主机名称太长了.md",
+    "Linux&Software/Debian 安装 NVM.md",
+    "Linux&Software/Git/Linux 下配置 git 的 ssh key 连接.md",
+    "BackEnd/Mariadb/开启隧道连接.md",
     "Pasted image 20240809142919.png",
     "Nodejs/npm/npm 01.md",
     "Nodejs/npm",
@@ -158,15 +163,11 @@
     "Ide/Untitled.md",
     "Ide",
     "BackEnd/Mariadb/Mariadb 添加一次用户并且给访问权限.md",
-    "BackEnd/Mariadb/开启隧道连接.md",
     "BackEnd/Mariadb/Mariadb 开启远程连接.md",
-    "Linux&Software/Git/Linux 下配置 git 的 ssh key 连接.md",
     "Linux&Software/Debian 安装和配置redis.md",
     "Linux&Software/Git",
     "BackEnd/Mariadb",
-    "Linux&Software/Debian nvm 使用国内镜像.md",
     "BackEnd",
-    "Linux&Software/Debian 安装 NVM.md",
     "Linux&Software/Debian SSH key 连接.md",
     "Linux&Software/nginx安装和使用.md",
     "Linux&Software/Debian安装和配置Mariadb.md",
