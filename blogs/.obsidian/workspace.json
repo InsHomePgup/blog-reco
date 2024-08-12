@@ -148,6 +148,15 @@
   },
   "active": "0af486be2591da8d",
   "lastOpenFiles": [
+    "Pasted image 20240809142919.png",
+    "Nodejs/npm/npm 01.md",
+    "Nodejs/npm",
+    "Linux&Software/WSL/WSL初始化.md",
+    "Linux&Software/WSL",
+    "Ide/Webstorm/快捷键.md",
+    "Ide/Webstorm",
+    "Ide/Untitled.md",
+    "Ide",
     "BackEnd/Mariadb/Mariadb 添加一次用户并且给访问权限.md",
     "BackEnd/Mariadb/开启隧道连接.md",
     "BackEnd/Mariadb/Mariadb 开启远程连接.md",
@@ -175,19 +184,10 @@
     "FrontEnd/Vue/pinia/Pinia01.md",
     "FrontEnd/Vue/pinia",
     "FrontEnd/Vue/alova/alova01.md",
-    "FrontEnd/Vue/alova",
     "FrontEnd/Vue/Untitled.md",
     "FrontEnd/Vue/Leaflet/Leaflet Vue 的应用.md",
-    "FrontEnd/Vue/Leaflet",
     "FrontEnd/Typescript/记录一次vscode没有ts静态检查的事情.md",
     "FrontEnd/CSS/Icon/iconify.md",
-    "FrontEnd/CSS/Icon",
-    "@iconify/vue.md",
-    "@iconify",
-    "FrontEnd/Webpack/webpack01.md",
-    "FrontEnd/Webpack/cli.md",
-    "FrontEnd/Webpack/start.md",
-    "Life/read/人性的弱点.md",
-    "Life/read/读书笔记.md"
+    "@iconify/vue.md"
   ]
 }
