@@ -38,6 +38,18 @@ Suites: bookworm
 Components: main
 Signed-By: /etc/apt/keyrings/mariadb-keyring.pgp
 
+# 阿里云的源
+# MariaDB 10.11 repository list - created 2024-08-01 14:43 UTC
+# [https://mariadb.org/download/](https://mariadb.org/download/)
+X-Repolib-Name: MariaDB
+Types: deb
+# deb.mariadb.org is a dynamic mirror if your preferred mirror goes offline. See [https://mariadb.org/mirrorbits/](https://mariadb.org/mirrorbits/) for details.
+# URIs: [https://deb.mariadb.org/10.11/debian](https://deb.mariadb.org/10.11/debian)
+URIs: [https://mirrors.aliyun.com/mariadb/repo/10.11/debian](https://mirrors.aliyun.com/mariadb/repo/10.11/debian)
+Suites: bookworm
+Components: main
+Signed-By: /etc/apt/keyrings/mariadb-keyring.pgp
+
 # 开始安装:
 
 sudo apt update
