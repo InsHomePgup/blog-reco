@@ -68,30 +68,4 @@ export default {
 看上去非常不错，那么现在pnpm run build一下，很好，报错了。。
 ```
 [!] (plugin typescript) RollupError: [plugin typescript] @rollup/plugin-typescript: Couldn't process compiler options
-
-```
-
-找解决办法说是使用另外一个包
-rollup-plugin-typescript-2
-
-```
-pnpm add rollup-plugin-typescript-2 -S -D
-```
-
-修改配置
-```js
-import typescript from '@rollup/plugin-typescript';  
-import ts from 'rollup-plugin-typescript-2';  
-export default {  
-    input: 'src/main.js',  // 入口  
-    output: {  // 出口  
-        file: 'bundle.js',  
-        format: 'cjs'  // 打包规范  
-    },  
-    plugins: [  
-        ts({  
-            typescript  
-        })  
-    ]  
-};
 ```
