@@ -1,5 +1,7 @@
 记录一次使用
 
+options使用方式
+
 Store下面创建一个
 counter.ts
 ``` typescript
