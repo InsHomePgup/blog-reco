@@ -17,7 +17,7 @@ autoProxy=true
 ```
 
 #### 配置默认root用户
-C:\Users\Abraham\AppData\Local\Microsoft\WindowsApps
+C:\Users\User\AppData\Local\Microsoft\WindowsApps
 
 到这个目录下面执行
 debian.exe config --default-user root
