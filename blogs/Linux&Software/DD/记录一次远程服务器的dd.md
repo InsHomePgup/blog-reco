@@ -8,8 +8,7 @@ wget --no-check-certificate -qO InstallNET.sh 'https://gitee.com/mb9e8j2/Tools/r
 
 
 ```
-bash InstallNET.sh -debian 12 -pwd 'mypassword' -port "22"
-
+bash InstallNET.sh -debian 12 -pwd 'mypassword' -port "22" -mirror "https://mirrors.ustc.edu.cn/debian/"
 ```
 
 硬盘写入测试
