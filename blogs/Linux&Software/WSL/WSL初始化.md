@@ -31,3 +31,9 @@ vim /etc/wsl.conf
 [参考网站](https://learn.microsoft.com/zh-cn/windows/wsl/systemd)
 
 
+```
+[boot]
+systemd=true
+```
+
+
