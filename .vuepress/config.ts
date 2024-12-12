@@ -19,7 +19,7 @@ export default defineUserConfig({
     colorMode: 'dark',
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
-    author: "Abraham",
+    author: "Abra",
     authorAvatar: "https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/⋆⁺₊⋆ ☾ ⋆⁺₊⋆ ☁︎.jpeg",
     // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     // docsBranch: "main",

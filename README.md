@@ -9,15 +9,15 @@ bannerBrand:
   bgImage: '/bg.svg'
   title: Abra's Home
   description: Welcome here.
-  tagline: Record something that is fun.
+  tagline: Fucking the world.
   # buttons:
   #   - { text: Life, link: '/docs/guide/introduce' }
   #   - { text: Code, link: '/docs/style-default-api/introduce', type: 'plain' }
-  socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/InsHomePgup' }
-blog:
-  socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/InsHomePgup' }
+#  socialLinks:
+#    - { icon: 'LogoGithub', link: 'https://github.com/InsHomePgup' }
+#blog:
+#  socialLinks:
+#    - { icon: 'LogoGithub', link: 'https://github.com/InsHomePgup' }
 isShowTitleInHome: true
 # actionText: About
 # actionLink: /views/other/about
