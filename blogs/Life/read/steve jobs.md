@@ -8,4 +8,3 @@ categories:
 ---
 I'm start reading a book.
 Steve jobs.
-This book was my first seriously.
