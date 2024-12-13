@@ -8,6 +8,7 @@ import series from './config/series'
 export default defineUserConfig({
   locales: undefined,
   title: "Abra's Home",
+  base: '/blog-reco/',
   description: "Happy life go go go !!!",
   bundler: viteBundler(),
   markdown: {

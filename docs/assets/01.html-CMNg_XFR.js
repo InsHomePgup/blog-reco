@@ -1,5 +1,0 @@
-import{_ as e,o as n,c as a,d as i}from"./app-ClyKmoKW.js";const s={},t=i(`<div class="language-TS line-numbers-mode" data-ext="TS" data-title="TS"><pre class="language-TS"><code>defineProps()
-defineModel()
-defineExpose()
-defineOptions()
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5 id="defineprops" tabindex="-1"><a class="header-anchor" href="#defineprops"><span>defineProps</span></a></h5><p>声明子组件接收的参数</p>`,3),d=[t];function o(r,l){return n(),a("div",null,d)}const m=e(s,[["render",o],["__file","01.html.vue"]]),p=JSON.parse('{"path":"/blogs/FrontEnd/Vue/01.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1719150142000,"updatedTime":1723423314000,"contributors":[{"name":"InsHomePgups","email":"7328234@gmail.com","commits":2},{"name":"InsHomePgup","email":"laptop13700h","commits":1}]},"filePathRelative":"blogs/FrontEnd/Vue/01.md"}');export{m as comp,p as data};
