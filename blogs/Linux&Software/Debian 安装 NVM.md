@@ -7,6 +7,11 @@ apt update && apt upgrade -y
 apt install build-essential libssl-dev 
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash 
+curl -o- https://gitee.com/inshomepgup/linux_-auto_-script/raw/main/installNVM.sh | bash 
+
+
+
+
 
 source ~/.bashrc
 
