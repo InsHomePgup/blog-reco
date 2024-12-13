@@ -8,3 +8,5 @@ categories:
 ---
 I'm start reading a book.
 Steve jobs.
+learn some words.
+vocabulary.
