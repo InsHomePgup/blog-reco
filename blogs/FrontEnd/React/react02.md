@@ -3,14 +3,16 @@ title: React02 组件的使用
 date: 2024/06/06
 tags:
   - react
-  - jsx
-  - tsx
 categories:
   - react
 ---
 
 ## 组件
-\
+
+React 的组件
+区分react组件和普通html元素的方式就是
+react组件的首字母大写。
+
 
 ### 创建组件
 
@@ -67,8 +69,6 @@ class About extends Component<any, any>{
     }  
 }  
 export default About;
-
-
 ```
 
 

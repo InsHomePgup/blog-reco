@@ -1,3 +1,6 @@
+---
+title: Commit 的提交信息规范
+---
 - feat: 新增 feature
 - fix: 修复 bug
 - docs: 仅修改了文档，比如 README, CHANGELOG, CONTRIBUTE等等

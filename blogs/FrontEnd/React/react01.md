@@ -1,20 +1,42 @@
 ---
-title: React01 jsx | tsx的使用
+title: React01 jsx | tsx的使用 动态添加html属性
 date: 2024/06/06
 tags:
-  - react jsx tsx
+  - react
+  - tsx
 categories:
   - react
 ---
 
 ### React学习
+
 首先用vite + react启动一个react-ts项目
-删除多余的内容，仅保留app和main
+
+``` shell
+pnpm create vite [项目名称] --template react-ts
+
+pnpm create vite react-starter --template react-ts
+
+```
+
+##### 添加一些依赖
+
+- unocss
+- antfu eslint
+- lodash-es
+
+![[Pasted image 20241216163945.png]]
+
+删除多余的内容，仅保留App.tsx和main.tsx
+
+![[Pasted image 20241216160230.png]]
 
 ## html插入动态内容，动态属性
 
-``` jsx
+##### 绑定变量属性
+title={name}的这种形式去给一个标签添加动态的属性
 
+``` jsx
 function App()  {  
 	const name = 'foo'
 	return(
@@ -24,7 +46,50 @@ function App()  {
 	)
 }
 // 一个花括号里面输入来使用js表达式和变量
+
+// 导出组件
+export default App
+
 ```
+
+##### 绑定class
+
+直接添加class和绑定class的变量
+
+```jsx
+
+function App() {  
+
+const myClassName: string = 'w-10 h-10 bg-blue-6'
+
+  return (  
+    <>      /** 这里使用了一对空标签当成根标签*/
+	    /** 直接绑定class */
+     <div className="w-2"></div>  
+	    /** 绑定class变量 */
+     <div className={myClassName}></div>
+    </>  
+)}  
+  
+export default App
+
+```
+
+##### 绑定style
+
+``` tsx
+function App() {  
+  const styleObj = {  
+    backgroundColor: 'red',  
+  }  return (  
+    <>      <div style={styleObj}></div>  
+      <div style={{ color: 'red' }}></div>  
+    </>  )}  
+  
+export default App
+```
+
+
 
 ## 事件操作，获取事件对象event
 
@@ -39,6 +104,7 @@ function App() {
     return (  
         <div>  
             {/*调用方式1*/}  
+            {/*bind方式拿到event，默认最后一个参数就是event*/}  
             <button onClick={test.bind(null, 123)}>  
             </button>  
             {/*调用方式2*/}  
@@ -49,8 +115,6 @@ function App() {
             <button onClick={(event) => {  
                 test(123, event)  
             }}></button>  
-            {/*bind方式拿到event，默认最后一个参数就是event*/}  
-            <button onClick={test.bind(null, 123)}></button>  
         </div>  
     )  
 }  
@@ -59,6 +123,9 @@ export default App
 ```
 
 ## 实现html循环遍历
+
+使用map来返回jsx片段
+
 
 ``` jsx
 
