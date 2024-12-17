@@ -24,12 +24,11 @@ pnpm create vite react-starter --template react-ts
 - unocss
 - antfu eslint
 - lodash-es
-
-![[Pasted image 20241216163945.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020241216163945.png)
 
 删除多余的内容，仅保留App.tsx和main.tsx
 
-![[Pasted image 20241216160230.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020241216160230.png)
 
 ## html插入动态内容，动态属性
 
