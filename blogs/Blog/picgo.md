@@ -21,3 +21,6 @@ categories:
 这里我的做法就是直接把图片上传到和blog一起的仓库直接管理，也就不用分两个仓库了。
 主要就是在配置的时候的存储路径一项选择自己博客仓库内的一个文件夹。
 ![](https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/图床PicGo设置.png)
+
+picgo 已经停更很久了，这里找到了一款还在更新的管理软件。也是fork picgo继续开发的。
+[PicList](https://piclist.cn/app)
