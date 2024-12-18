@@ -6,7 +6,7 @@
 pnpm add @rollup/plugin-typescript --save-dev
 ```
 
-![[Pasted image 20240830175050.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020240830175050.png)
 
 根据npm上的介绍，还需要安装这两个包。
 ```

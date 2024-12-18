@@ -17,7 +17,7 @@ Server version: 10.11.6-MariaDB-0+deb12u1 Debian 12
 
 [参考网站](https://mariadb.org/download/?t=repo-config&d=Debian+12+%22Bookworm%22&v=11.4&r_m=xtom_fre)
 
-![[Pasted image 20240908121934.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020240908121934.png)
 
 选自己的系统版本，软件的安装版本，和镜像源
 感谢阿里。

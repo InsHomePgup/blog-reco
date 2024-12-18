@@ -26,7 +26,7 @@ debian.exe config --default-user root
 
 vim /etc/wsl.conf
 
-![[Pasted image 20240809142919.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020240809142919.png)
 
 [参考网站](https://learn.microsoft.com/zh-cn/windows/wsl/systemd)
 

@@ -1,6 +1,6 @@
 
 rollup真的是非常重要的技能了。
-![[Pasted image 20240830171530.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020240830171530.png)
 光看官网的介绍的意思就是把很多小的js编译成一个大的。
 如果我们写代码，那肯定是分成很多模块这样方便管理，但是打包的话，就是要把很多小块合成一个大块。
 
@@ -92,7 +92,7 @@ rollup -c
 # 打包成功，和前面一样，所以打包之前可以删除bundle.js 来观察效果
 ```
 
-![[Pasted image 20240830173314.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020240830173314.png)
 这个时候教程提示我们可以试试多环境的打包方式
 其实就是使用rollup --config这个cli参数来指定其他的打包文件。
 
@@ -104,7 +104,7 @@ rollup -c
 pnpm init
 pnpm add rollup -S -D
 
-![[Pasted image 20240830173716.png]]
+![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020240830173716.png)
 
 安装完成以后是这样，我们加一个script进去,同时删除script自带的test，没啥用。
 
