@@ -96,10 +96,10 @@ export default App
 ``` jsx
 // 事件操作
 function App() {  
-    function test(number1?: number, event?: any) {  
+    function test(number1?: number, event?: React.FormEvent<HTMLButtonElement>) {  
         console.log(number1, event)  
     }  
-  
+  /** React.FormEvent<HTMLButtonElement> react的一些ts类型 */
     return (  
         <div>  
             {/*调用方式1*/}  
