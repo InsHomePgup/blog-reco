@@ -14,7 +14,7 @@ date: 2024/06/08
 
 用Obsidian来写vuepress的文章的话，在头部就有不一样的显示形式，可以选择tag，选择category。
 
-![](https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/obselect.png)
+<img src="https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/obselect.png" width="50%">
 
 
 平常我都是用vscode或者是webstorm就md的编辑体验来讲没有那么好哈哈哈
@@ -42,3 +42,5 @@ GIthub图床管理。
 
 Ctrl + K
 [Google](https://www.google.com)
+%% 注释 %%
+
