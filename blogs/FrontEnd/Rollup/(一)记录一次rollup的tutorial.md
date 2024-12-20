@@ -14,8 +14,10 @@ pnpm add -g rollup
 
 创建一个项目 rollup-start
 进入项目
-创建两个文件
+在src目录下创建两个文件
 main.js foo.js
+
+<img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20241220104549209.png" width="50%">
 
 ``` javascript
 // src/main.js 
@@ -29,14 +31,16 @@ export default 'hello world!';
 ```
 
 
+
 接下去使用rollup来进行打包
 
 ```bash
-#  cli执行 输出到控制台
+#  cli执行 输出到控制台  -f format cjs(CommonJS)
 rollup src/main.js -f cjs
 
-# 输出到文件 用cjs的规范
-rollup src/main.js -o bundle.js -f cjs
+
+# 输出到文件 用cjs的规范 -o output
+rollup src/main.js -o bundle.js -f cjs 
 
 # src/main.js → bundle.js...
 created bundle.js in 24ms
@@ -86,9 +90,9 @@ export default {
 写了一个配置文件以后
 使用新的打包cli
 
-```bash
+```shell
+#  -c 使用config 来打包
 rollup -c
-
 # 打包成功，和前面一样，所以打包之前可以删除bundle.js 来观察效果
 ```
 
@@ -97,15 +101,19 @@ rollup -c
 其实就是使用rollup --config这个cli参数来指定其他的打包文件。
 
 ###  Installing Rollup locally
-在项目内配置rollup
-假设我们要写一个前端的库，打包很多js到一个js，那么这个库的源代码里肯定是引用了rollup
 
+在项目内配置rollup
+
+假设我们要写一个前端的库，打包很多js到一个js，那么这个库的源代码里肯定是引用了rollup
 那么我们在刚刚的那个项目的根目录执行
 pnpm init
 pnpm add rollup -S -D
 
-![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/Pasted%20image%2020240830173716.png)
-
 安装完成以后是这样，我们加一个script进去,同时删除script自带的test，没啥用。
 
+<img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20241220105745132.png" width="50%">
+
 配置到这里以后可以愉快的使用pnpm run build 这种熟悉的方式来进行打包了！！！快乐来了。
+
+[Rollup Tutorial](https://rollupjs.org/tutorial/)
+

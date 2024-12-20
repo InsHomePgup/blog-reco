@@ -66,6 +66,38 @@ export default {
 ```
 
 看上去非常不错，那么现在pnpm run build一下，很好，报错了。。
+
+
+
 ```
+Specified 'include' paths were '["**/*"]' and 'exclude' paths were '[]'.
 [!] (plugin typescript) RollupError: [plugin typescript] @rollup/plugin-typescript: Couldn't process compiler options
 ```
+
+没有ts文件可以编译，因为我们当前目录下都是js文件，改用ts文件。
+并且修改入口文件为main.ts
+<img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20241220110901717.png" width="50%">
+
+<img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20241220110939721.png" width="50%">
+
+``` shell
+pnpm run build
+```
+
+打包成功，但是有一条提示
+
+```text
+> rollup -c
+src/main.ts → bundle.js...
+(!) [plugin typescript] @rollup/plugin-typescript TS5096: Option 'allowImportingTsExtensions' can only be used when either 'noEmit' or 'emitDeclarationOnly' is set.
+created bundle.js in 553ms
+```
+
+关于tsconfig的配置的一条提示。(这B配置提示要开启noEmit，但是后面我加上noEmit以后还是提示了这个错误)
+"typescript": "^5.7.2"
+
+在issue的讨论内说是已经在过往版本修复了。
+
+[github issue](https://github.com/cypress-io/cypress/issues/26148)
+
+不过这里也是打包成功了，现在可以在项目内使用ts了。
