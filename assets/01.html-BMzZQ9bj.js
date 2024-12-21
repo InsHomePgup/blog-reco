@@ -1,0 +1,6 @@
+import{_ as s,o as a,c as e,e as t}from"./app-ni5seZb4.js";const n={},i=t(`<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token comment"># short show status info</span>
+<span class="token function">git</span> status <span class="token parameter variable">-s</span>
+
+<span class="token comment"># show status without untracked file</span>
+<span class="token function">git</span> status <span class="token parameter variable">-uno</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,1),o=[i];function l(c,r){return a(),e("div",null,o)}const d=s(n,[["render",l],["__file","01.html.vue"]]),u=JSON.parse('{"path":"/blogs/Git/Commands/Status/01.html","title":"Status","lang":"en-US","frontmatter":{"title":"Status"},"headers":[],"git":{"createdTime":1734598347000,"updatedTime":1734601901000,"contributors":[{"name":"Abraham K.","email":"47906083+InsHomePgup@users.noreply.github.com","commits":2}]},"filePathRelative":"blogs/Git/Commands/Status/01.md"}');export{d as comp,u as data};
