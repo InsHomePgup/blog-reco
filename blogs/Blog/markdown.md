@@ -27,7 +27,7 @@ categories:
 ## 图片
 
 公式： 感叹号 + 方圆
-![](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/hero.png)
+![|100](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/hero.png)
 
 控制图片大小，使用html img标签
 <img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/hero.png" width="100">
