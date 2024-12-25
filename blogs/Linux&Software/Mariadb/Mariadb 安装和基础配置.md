@@ -92,3 +92,6 @@ bind-address = 0.0.0.0
 create user 'username'@'%' identified by 'password';
 grant all on database.* to 'username'@'%'
 ```
+
+create user 'gitea'@'%' identified by '123';
+grant all on database.* to 'gitea'@'%'

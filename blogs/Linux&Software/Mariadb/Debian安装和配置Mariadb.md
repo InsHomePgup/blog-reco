@@ -87,6 +87,8 @@ mysql
 
 grant all privileges on *.* to root@"%" identified by "pwd" with grant option; flush privileges;
 
+grant all privileges on *.* to gitea@"%" identified by "123" with grant option; 
+
 ```
 
 ### 开启配置中的远程连接
@@ -106,4 +108,7 @@ bind-address = 0.0.0.0
 
 create user 'username'@'%' identified by 'password';
 grant all on database.* to 'username'@'%'
+
+grant all on gitea.* to 'gitea'@'%'
+
 ```
