@@ -22,11 +22,13 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "Abra",
     authorAvatar: "https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/avatar.jpg",
+    repo:"InsHomePgup/blog-reco",
     // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
     // docsBranch: "main",
     // docsDir: "example",
     // lastUpdatedText: "",
     // series 为原 sidebar
+    autoSetSeries: true,
     series,
     navbar
   })

@@ -30,7 +30,7 @@ categories:
 ![|100](https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/hero.png)
 
 控制图片大小，使用html img标签
-<img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/hero.png" width="100">
+<img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/hero.png" style="width:100px;">
 img 标签的 src 指向图片路径，width和height标注图片尺寸。
 
 
@@ -60,15 +60,27 @@ This is a details block, which does not work in IE / Edge
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+
+|Table|One|
+|---|---|
+|123|123|
+
 ## Emoji
 
 :tada: :100:
 
 ## 第二行 + 第三行代码高亮显示
 
+```text
 ```js{2-3}
 let abc = '123'
-let alwkjd = '456'
+let edf = '456'
 let a123=25123
+```
 
+
+```js{2-3}
+let abc = '123'
+let edf = '456'
+let a123=25123
 ```
