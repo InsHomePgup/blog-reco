@@ -18,7 +18,6 @@ export default defineUserConfig({
   // bundler: webpackBundler(),
   theme: recoTheme({
     colorMode: 'dark',
-    style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "Abra",
     authorAvatar: "https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/avatar.jpg",
