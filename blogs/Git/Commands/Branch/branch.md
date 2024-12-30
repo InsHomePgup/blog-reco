@@ -25,7 +25,7 @@ git switch -c [branchName]
 ##### 查看本地分支和远程分支
 
 ```shell
-# 本地
+# 查看本地分支
 git branch
 
 #查看远程分支  -r remote
@@ -51,4 +51,14 @@ git push origin --delete [branchName]
 
 # 强制删除远程分支 force
 git push origin -D [branchName]
+```
+
+##### 重命名分支
+
+``` shell
+git sw -c feat/A
+# Switched to a new branch 'feat/A'
+git br -m feat/A feat/B
+
+# move  -m 类似linux下的mv 重命名
 ```
