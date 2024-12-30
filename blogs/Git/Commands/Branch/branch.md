@@ -27,7 +27,11 @@ git switch -c [branchName]
 ```shell
 # 本地
 git branch
-#远程
+
+#查看远程分支  -r remote
+git branch -r
+
+# 查看全部分支
 git branch -a
 
 ```
@@ -38,8 +42,13 @@ git branch -a
 # 删除本地分支
 git branch -d [branchName]
 
+# 强制删除分支，未合并的分支也会删除
+git branch -D [branchName]
+
 # 删除远程分支
 git push origin -d [branchName]
 git push origin --delete [branchName]
 
+# 强制删除远程分支 force
+git push origin -D [branchName]
 ```
