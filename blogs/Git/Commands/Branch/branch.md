@@ -47,10 +47,12 @@ git branch -D [branchName]
 
 # 删除远程分支
 git push origin -d [branchName]
+
 git push origin --delete [branchName]
 
-# 强制删除远程分支 force
-git push origin -D [branchName]
+# 删除远程已经删除但是本地还存在的分支
+git remote prune origin
+
 ```
 
 ##### 重命名分支
