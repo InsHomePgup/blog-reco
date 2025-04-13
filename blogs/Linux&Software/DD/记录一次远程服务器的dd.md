@@ -6,6 +6,10 @@ https://gitee.com/mb9e8j2/Tools/raw/master/Linux_reinstall/InstallNET.sh
 
 wget --no-check-certificate -qO InstallNET.sh 'https://gitee.com/mb9e8j2/Tools/raw/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
 
+wget --no-check-certificate -qO InstallNET.sh 'https://gitee.com/mb9e8j2/Tools/raw/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh
+
+https://gitee.com/inshomepgup/linux_-auto_-script/blob/main/InstallOS.sh
+
 
 ```
 bash InstallNET.sh -debian 12 -pwd 'mypassword' -port "22" -mirror "https://mirrors.ustc.edu.cn/debian/"
